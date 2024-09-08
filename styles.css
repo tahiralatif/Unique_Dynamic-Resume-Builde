@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #b38896;
+    }
+    
+    .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    background-color: #cf96b7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(29, 199, 148, 0.1);
+    color: white;
+    font-size: 20px;
+    }
+    input:hover{
+        border: #f717bf;
+        transition-timing-function:cubic-bezier() ;
+    }
+    
+    form {
+    margin-bottom: 20px;
+    }
+    
+    form h2 {
+    margin-top: 0;
+    }
+    
+    label {
+    display: block;
+    margin: 10px 0 5px;
+    }
+    
+    input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e02f2f;
+    background-color: #eb7ab8;
+    color: white;
+    border-radius: 5px;
+    }
+    input, textarea:hover{
+        color:white;
+    }
+    
+    button {
+    padding: 10px 20px;
+   color: white;
+    background-color: #e76ec9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #db3575;
+    }
+    
+    #resume {
+    display: none;
+    }
+    
+    #resume header, #resume section {
+    margin-bottom: 20px;
+    }
+    
+    #resume header h1 {
+    margin: 0;
+    font-size: 2em;
+    }
+    
+    #resume header p {
+    margin: 5px 0;
+    color: #666;
+    }
+    
+    #resume section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    }
